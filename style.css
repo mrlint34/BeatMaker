@@ -37,7 +37,7 @@ svg {
   background: rgb(230, 178, 83);
 }
 .hihat-pad.active {
-  background: rgb(221, 159, 45);
+  background: rgb(195, 134, 21);
 }
 .sequencer {
   display: flex;
@@ -95,4 +95,12 @@ svg {
 select {
   padding: 1rem;
   font-size: 1rem;
+}
+@keyframes playTrack {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
 }
