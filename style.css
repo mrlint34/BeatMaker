@@ -8,10 +8,14 @@ html {
 }
 body {
   font-family: sans-serif;
+  background: rgb(9, 9, 36);
 }
 i,
 svg {
   pointer-events: none;
+}
+h1 {
+  color: white;
 }
 .kick-pad,
 .snare-pad,
@@ -77,6 +81,10 @@ svg {
   font-size: 1.4rem;
   cursor: pointer;
   transition: all 0.5s ease;
+  border-radius: 2rem;
+  box-shadow: 3px -3px rgb(39, 15, 124), 2px -2px rgb(39, 15, 124),
+    1px -1px rgb(39, 15, 124);
+  border: 1px solid rgb(39, 15, 124);
 }
 .pad {
   transition: all 0.5s ease;
@@ -94,11 +102,34 @@ svg {
 
 select {
   padding: 1rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  width: 17rem;
 }
 
 .mute.active {
   background: rgb(121, 115, 115);
+}
+
+.tempo {
+  margin: 3rem;
+  width: 30%;
+}
+
+.tempo-slider {
+  padding: 0.2rem;
+  -webkit-appearance: none;
+  margin: 1rem 0rem;
+  width: 100%;
+  position: relative;
+  background: rgb(51, 51, 51);
+  cursor: pointer;
+  border-radius: 2rem;
+}
+
+.tempo p {
+  font-size: 1.5rem;
+  margin: 2rem;
+  text-align: center;
 }
 
 @keyframes playTrack {
