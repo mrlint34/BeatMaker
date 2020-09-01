@@ -8,15 +8,13 @@ html {
 }
 body {
   font-family: sans-serif;
-  background: rgb(9, 9, 36);
+  background: rgb(232, 232, 240);
 }
 i,
 svg {
   pointer-events: none;
 }
-h1 {
-  color: white;
-}
+
 .kick-pad,
 .snare-pad,
 .hihat-pad {
@@ -65,7 +63,6 @@ h1 {
 .hihat {
   display: flex;
 }
-
 .controls {
   display: flex;
   justify-content: space-between;
@@ -82,9 +79,6 @@ h1 {
   cursor: pointer;
   transition: all 0.5s ease;
   border-radius: 2rem;
-  box-shadow: 3px -3px rgb(39, 15, 124), 2px -2px rgb(39, 15, 124),
-    1px -1px rgb(39, 15, 124);
-  border: 1px solid rgb(39, 15, 124);
 }
 .pad {
   transition: all 0.5s ease;
